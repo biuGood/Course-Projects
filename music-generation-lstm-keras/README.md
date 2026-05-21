@@ -92,9 +92,6 @@ test_output.mid
 |---|---|
 | `lstm.py` | Trains the LSTM model using MIDI files from the `midi_songs/` folder |
 | `predict.py` | Loads trained weights and generates a new MIDI music file |
-| `weights.hdf5` | Pretrained model weights used for music generation |
-| `new_weights.hdf5` | Additional trained weights / checkpoint file |
-| `.gitattributes` | Git attribute configuration, useful for tracking large model files |
 | `LICENSE` | Project license |
 | `README.md` | Project documentation |
 
@@ -106,9 +103,6 @@ music-generation-lstm-keras/
 ├── README.md
 ├── lstm.py
 ├── predict.py
-├── weights.hdf5
-├── new_weights.hdf5
-├── .gitattributes
 ├── LICENSE
 │
 ├── data/
